@@ -4,11 +4,11 @@
 
 ## Purpose / Role
 
-This is a rule-based avoidance module, which is running based on perception output data, HDMap, current path and route. This module is designed for creating avoidance path for static (=stopped) objects in simple situation. On the other hand, this module doesn't support dynamic (=moving) objects for now.
+This is a rule-based avoidance module, which operates based on perception output data, HDMap, current path and route. This module is designed to create avoidance paths for static (=stopped) objects in simple situations. Currently, the module doesn't support dynamic (=moving) objects.
 
 ![fig](./images/purpose/avoidance.png)
 
-This module has [RTC interface](../../autoware_rtc_interface/README.md), and user can select operation mode from MANUAL/AUTO depending on the vehicle sensor performance. If user selects MANUAL mode, this module outputs avoidance path as candidate and waits operator approval. In the case where the sensor/perception performance is not enough and false positive maybe occurs, we recommend to use this module with MANUAL mode in order to prevent unnecessary avoidance maneuver.
+This module has an [RTC interface](../../autoware_rtc_interface/README.md), and users can select the operation mode (MANUAL or AUTO) depending on vehicle sensor performance. In MANUAL mode, the module outputs an avoidance path as a candidate and awaits operator approval. If sensor/perception performance is insufficient and false positives occur, we recommend using this module in MANUAL mode to prevent unnecessary avoidance maneuvers.
 
 On the other hand, if user selects AUTO mode, this module modifies current following path without operator approval. If the sensor/perception performance is good enough, user can use this module with AUTO mode.
 
