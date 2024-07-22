@@ -4,7 +4,7 @@
 
 ## Purpose / Role
 
-This is a rule-based avoidance module, which operates based on perception output data, HDMap, current path and route. This module is designed to create avoidance paths for static (=stopped) objects in simple situations. Currently, the module doesn't support dynamic (=moving) objects.
+This is a rule-based avoidance module that operates based on perception output data, HDMap, current path and route. This module is designed to create avoidance paths for static (=stopped) objects in simple situations. Currently, the module doesn't support dynamic (=moving) objects.
 
 ![fig](./images/purpose/avoidance.png)
 
