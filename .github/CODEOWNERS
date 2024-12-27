@@ -234,6 +234,7 @@ vehicle/autoware_raw_vehicle_cmd_converter/** kosuke.takeuchi@tier4.jp kyoichi.s
 vehicle/autoware_steer_offset_estimator/** taiki.tanaka@tier4.jp
 visualization/autoware_overlay_rviz_plugin/autoware_mission_details_overlay_rviz_plugin/** ahmed.ebrahim@leodrive.ai
 visualization/autoware_overlay_rviz_plugin/autoware_overlay_rviz_plugin/** khalil@leodrive.ai
+visualization/autoware_overlay_rviz_plugin/autoware_string_stamped_overlay_rviz_plugin/** satoshi.ota@tier4.jp takayuki.murooka@tier4.jp
 visualization/autoware_perception_rviz_plugin/** opensource@apex.ai shunsuke.miura@tier4.jp taiki.tanaka@tier4.jp takeshi.miura@tier4.jp yoshi.ri@tier4.jp
 visualization/bag_time_manager_rviz_plugin/** taiki.tanaka@tier4.jp
 visualization/tier4_adapi_rviz_plugin/** hiroki.ota@tier4.jp isamu.takagi@tier4.jp kosuke.takeuchi@tier4.jp
